@@ -1,0 +1,53 @@
+body, html { font-size: 100%;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.htmleaf-container{
+	margin: 0 auto;
+}
+/* Icons */
+.icon {
+	display: block;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 auto;
+	fill: currentColor;
+}
+
+/* Buttons */
+
+.btn {
+	display: block;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	pointer-events: auto;
+	border: none;
+	background: none;
+	z-index: 100;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+
+.btn--start {
+	border: 2px solid;
+	border-radius: 1.85em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.95em;
+	padding: 1em 2em;
+	margin: 0 auto;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}

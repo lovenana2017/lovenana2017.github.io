@@ -1,0 +1,68 @@
+/* starry night theme*/
+body{
+		background-image: radial-gradient(1600px at 70% 120%, rgba(33, 39, 80, 1) 10%, #020409 100%);
+}
+#nana {
+	fill: #d8ffff;
+}
+#gallery-title{
+  color:rgba(255,255,255,0.5);
+  background-color:rgba(6,56,82,.5);
+}
+/*wave*/
+#feel-the-wave-two
+{
+	 fill: rgba(6,56,82,.8);
+}
+#feel-the-wave
+{
+	 fill: rgba(255,255,255,.1);
+}
+/*button*/
+.btn{
+	color: #fdf7b5;
+}
+.btn:hover {
+	color: #fff;
+}
+#anni{
+	stroke: #13dbad;
+}
+#anni:hover{
+  fill:rgba(255,255,255,.2);
+}
+/*boat head color*/
+.cls-2{
+  fill:#d23f23;
+}
+/*boat tail color*/
+.cls-3{
+	fill:#efd251;
+  }
+/* Effect 1 */
+
+.letters--effect-1 .letter__layer:first-child {
+	stroke-width: 9px;
+}
+
+.letters--effect-1 .letter__layer:nth-child(2) {
+	stroke-width: 9.5px;
+}
+
+.letters--effect-1 .letter__layer:nth-child(3) {
+	stroke-width: 10px;
+}
+
+
+/* Effect 1 colors */
+
+.color-1 { stroke: #dea521; }
+.color-2 { stroke: #f84242; }
+.color-3 { stroke: #3758a7; }
+.color-4 { stroke: #f79c8c; }
+.color-5 { stroke: #84b5bd; }
+.color-6 { stroke: #feefde; }
+
+#gallery-title{
+  color:white;
+}

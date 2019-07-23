@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* green theme */
+body{
+		background-image: radial-gradient(1600px at 70% 120%, rgba(143,188,143,1) 10%, #020409 100%);
+}
+#nana {
+	fill: #303030;
+}
+#gallery-title{
+  color:rgba(255,255,255,0.8);
+  background-color:rgba(99,194,156, .2)
+}
+/*wave color*/
+#feel-the-wave-two
+{
+	fill: rgba(99,194,156, .5);
+}
+#feel-the-wave
+{
+	 fill: rgba(216,233,214,.3);/*rgba(255,255,255,.5);*/
+}
+/*anniversary*/
+#anni{
+	stroke: #008972;
+}
+#anni:hover{
+  fill:rgba(255,255,255,.2);
+}
+/*button */
+.btn{
+	color: #fdf7b5;
+}
+.btn:hover {
+	color: #fff;
+}
+/*boat head color*/
+.cls-2{
+  fill:#fa897b;/*#e4ab9b;/*#f2c9ac;/*rgb(248,132,107);*/
+}
+/*boat tail color*/
+.cls-3{
+	fill:#ffdd94;/*#fff1cf;/*rgb(255,248,165);*/
+  }
+/* Effect 4 */
+
+.letters--effect-1 .letter__layer:first-child {
+	stroke: rgb(186,207,147);
+	stroke-width: 10px;
+}
+
+.letters--effect-1 .letter__layer:nth-child(2) {
+	stroke: #27272d;
+	stroke-width: 4px;
+}
+
+.letters--effect-1 .letter__layer:nth-child(3) {
+	stroke: #fcec9b;
+	stroke-width: 1px;
+}
+
+

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/*peaceful blue theme*/
+body{
+/*		background-image: radial-gradient(1600px at 70% 120%, rgba(107,200,242,1) 10%, rgb(80,100,174) 100%);*/
+	background-image: radial-gradient(1600px at 70% 120%, #8a8cb2 10%, rgb(80,100,174) 100%);
+}
+#nana {
+	fill:#003048;
+}
+#gallery-title{
+  color:rgba(255,255,255,0.8);
+  background-color:rgba(0,0,0,0.2);
+}
+/*wave color*/
+#feel-the-wave-two
+{
+	 fill: rgba(80,100,174, .5);
+}
+#feel-the-wave
+{
+	 fill: rgba(216,233,214,.2);/*rgba(255,255,255,.5);*/
+}
+/*anniversar*/
+#anni{
+	stroke: rgba(26,65,60,0.5);
+}
+#anni:hover{
+  fill:rgba(255,255,255,.2);
+}
+/*button */
+.btn{
+	color: #fdf7b5;
+}
+.btn:hover {
+	color: #fff;
+}
+/*boat head color*/
+.cls-2{
+  fill:#ff8c78;/*#ff6666;/*rgb(230,28,100);*/
+}
+/*boat tail color*/
+.cls-3{
+	fill:#ffd661;/*#ffff00;/*rgb(255,248,165);*/
+  }
+/* Effect 3 */
+
+.letters--effect-1 .letter__layer:first-child {
+	-webkit-transform: translate3d(-2px, -2px, 0);
+	transform: translate3d(-2px, -2px, 0);
+	stroke: rgba(26,65,60,0.5);;/*#8a8cb2;*/
+	stroke-width: 10px;
+}
+
+.letters--effect-1 .letter__layer:nth-child(2) {
+	stroke: #ffd661;
+	stroke-width: 6px;
+}
+
+.letters--effect-1 .letter__layer:nth-child(3) {
+	stroke: #8cd6b5;/*#607d8b;*/
+	stroke-width: 8px;
+}
