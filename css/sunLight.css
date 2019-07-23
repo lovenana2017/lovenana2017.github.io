@@ -4,7 +4,7 @@
 #sunLight{
   border-radius: 100%;
   position: absolute;
-  top: 40vh;
+  top: 60vh;/*change sun level*/
   left: 80vw;
   width: 8vw;
   height: calc(8vw);
