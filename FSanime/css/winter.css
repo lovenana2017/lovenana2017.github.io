@@ -3,6 +3,10 @@
 body{
 /*		background-image: radial-gradient(1600px at 70% 120%, rgba(107,200,242,1) 10%, rgb(80,100,174) 100%);*/
 	background-image: radial-gradient(1600px at 70% 120%, #8a8cb2 10%, rgb(80,100,174) 100%);
+	background-image: -moz-radial-gradient(1600px at 70% 120%, #8a8cb2 10%, rgb(80,100,174) 100%);
+	background-image: -o-radial-gradient(1600px at 70% 120%, #8a8cb2 10%, rgb(80,100,174) 100%);
+	background-image: -ms-radial-gradient(1600px at 70% 120%, #8a8cb2 10%, rgb(80,100,174) 100%);
+	background-image: -webkit-gradient(radial,1600px at 70% 120%, #8a8cb2 10%, rgb(80,100,174) 100%);
 }
 #nana {
 	fill:#003048;
