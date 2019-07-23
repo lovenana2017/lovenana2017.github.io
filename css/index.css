@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+#universe {
+  width: 100%;
+  height: 100%;
+}
+/*---anniversary div*/
+.anniversary{
+  position: absolute;
+  bottom: 0;
+  right:0;
+  width:40vw;
+  height: 15vh;
+  z-index: 100;
+}
+#anni{
+  width:40vw;
+  height:15vh;
+  fill:transparent;
+  stroke-width:3px;
+  cursor:pointer;
+}
+
+/* anniversayn fraw outline*/
+@keyframes draw {
+      from{
+        stroke-dashoffset: 400px;
+      }
+    }
+#anni{
+      stroke-dasharray: 400px;
+      
+      animation: 4s linear forwards draw;
+      animation-iteration-count: infinite;        
+    }
+#gallery-title{
+  position: absolute;
+  top:0px;
+  text-align: center;
+  width:100%;
+  }   
+/*friendShip icon*/
+#fsSVG{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100vw;
+  height:70vh;
+  z-index: 2;
+} 
+/*==button=*/
+.btn {
+  position: absolute;
+  top:73%;
+  left:50%;
+  margin: 0 auto;
+  width: 150px;
+  z-index: 200;
+ -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* friendShip Main SVG */
+.letters {
+	position: relative;
+	display: block;
+	min-height: 400px;
+	max-height: 70vh;
+	margin: 0 auto;
+}
+/* friendShip Letter path */
+.letter__layer {
+	fill: none;
+	stroke-miterlimit: 3;
+	stroke-linecap: butt;
+	stroke-linejoin: bevel;
+}
+/*boat*/
+.boat {
+    position: absolute;
+    left: 100%;
+    bottom: 7%;/*adjust boat height*/
+	z-index: 15;
+}
+#friendBoat{
+	width:30vw;
+	height:calc(30vw);
+}
+
+/* lake wave*/
+.wave{
+  height: 100vh;
+  will-change: transform;/*allow transform*/
+  /*filter:progid:DXImageTransform.microsoft.gradient(gradienttype=0,startColorStr=blue,endColorStr=white);*/
+  position: absolute;
+  top:70%;/*adjust water level*/
+  left:0;
+}
+.wave1{z-index:10;}
+.wave2{z-index:20;}
+.im_wrapper div{
+  z-index: 300;
+}
+
