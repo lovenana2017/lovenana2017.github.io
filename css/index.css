@@ -58,7 +58,7 @@ body {
   top:0;
   left:0;
   width: 100vw;
-  height:70vh;
+  height:100vh;
   z-index: 2;
 } 
 /*==button=*/
@@ -116,4 +116,24 @@ body {
 .im_wrapper div{
   z-index: 300;
 }
-
+@media(max-height:420px){
+     .wave{
+      top:60%;
+     }
+      #friendBoat{
+        width:calc(50vh);
+        height:50vh;
+      }
+  }
+@media(max-height:450px){
+     #fsSVG{   
+      width:calc(100vh);
+      top:-20%;
+      left:calc(50vw);
+      transform: translateX(-50vh);
+      -o-transform: translateX(-50vh);
+      -moz-transform: translateX(-50vh);
+      -ms-transform: translateX(-50vh);
+      -webkit-transform: translateX(-50vh);
+     }
+  } 
