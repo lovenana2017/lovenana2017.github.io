@@ -1,9 +1,12 @@
 @charset "utf-8";
 /* Spring colorful theme*/
-body{
-		/*background: radial-gradient(1600px at 70% 120%, #fef6c7 5%, #fef6c7 100%);*/
-		/*background: -webkit-radial-gradient(70% 70%,circle, #fef6c7 5%, #fef6c7 100%);*/
-background:#fef6c7;
+.container{
+		/*background:radial-gradient(1600px at 70% 120%,#fff 5%, #fef6c7 100%);*/
+		background:radial-gradient(120% 100%,circle,#fff 1%, #fef6c7 100%);
+		background:-o-radial-gradient(120% 100%,circle,#fff 1%, #fef6c7 100%);
+		background:-moz-radial-gradient(120% 100%,circle,#fff 1%, #fef6c7 100%);
+		background:-ms-radial-gradient(120% 100%,circle,#fff 1%, #fef6c7 100%);
+		background:-webkit-radial-gradient(120% 100%,circle,#fff 1%, #fef6c7 100%);
 }
 #nana {
 	fill: #78A8c0;/*#1860A8;*/
